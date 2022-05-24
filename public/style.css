@@ -1,0 +1,105 @@
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+div {
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+}
+
+nav li {
+    width:200px;
+}
+
+.left-column {
+    float: left;
+    width: 100%;
+    min-height: 100px;
+    background-color: #fcf8e3;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin-top:45px; /*делаем отступ сверху*/
+
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#fcf8e3; /*добавляем фон к пункту меню*/
+    color:#0d0d0d; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+   -o-transition: all 0.3s 0.01s ease;
+   -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+    background:#d4af37;/*добавляем эффект при наведении*/
+}
+li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+/*Стили для скрытого выпадающего меню*/
+li > ul {
+    position:absolute;
+    top:110px;
+    display:none;
+}
+
+/*Делаем скрытую часть видимой*/
+li:hover > ul {
+    display:block;
+    width:200px;  /*Задаем ширину выпадающего меню*/
+}
+
+footer {
+    width: 80%;
+    margin-left: 10%;
+}
+p {
+    font-family: arial;
+    float:left;
+    position:relative;
+    display: inline-block;
+    width:250px;
+
+}
+
+
+main-foto{
+
+    width: 50%;
+    min-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
